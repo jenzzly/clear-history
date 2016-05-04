@@ -1,0 +1,14 @@
+{
+    "name" : "blockim",
+    "description" : " this extension remove some stupid articles",
+    "version" : "0.1",
+
+    "browser_action" : {
+        "default_popup" : "popup.html",
+        "default_icon" : "bk.png"
+    },
+
+    "permissions" : ["notifications","tabs","storage","browsingData"],
+    "manifest_version": 2
+
+}
